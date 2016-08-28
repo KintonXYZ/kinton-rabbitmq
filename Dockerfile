@@ -11,4 +11,6 @@ RUN rabbitmq-plugins enable --offline rabbitmq_topic_authorization
 RUN rabbitmq-plugins enable --offline rabbitmq_auth_backend_http
 
 EXPOSE 15672
+EXPOSE 61613
+EXPOSE 5672
 EXPOSE 1884
